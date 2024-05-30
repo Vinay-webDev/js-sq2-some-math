@@ -18,3 +18,13 @@ function findMax(arr) {
 }
 
 console.log(findMax([1, 3, 7, 2, 5])); // Output: 7
+// sum of array
+function sumArray(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+
+console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15
